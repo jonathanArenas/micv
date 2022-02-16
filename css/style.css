@@ -1,0 +1,180 @@
+h1, h2{
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    color: #555;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+.container-father{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 50px;
+    box-shadow: 0 1px 8px #dddddd;
+    z-index: 1;
+}
+
+header h1{
+    margin-right: auto;
+    font-size: 20px;
+    
+}
+
+header  li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover{
+    color: rgb(87, 133, 197);
+}
+
+.container-content{
+    width: 100%;
+    display: flex;
+}
+
+.container-content aside{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    color: #555;
+}
+
+
+.container-content aside div{
+    width: 90%;
+}
+
+.container-content aside .name{
+    font-size: 20px;
+}
+
+.container-content aside div h2{
+    border-top: rgb(38, 125, 255) solid 2px;
+    border-bottom: rgb(38, 125, 255) solid 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-content aside li{
+    list-style: none;
+    padding: 5px 0px 5px 0px;
+}
+
+.container-content aside li a{
+    text-decoration: none;
+    color: #555;
+}
+
+.image-profile{
+    width: 180px;
+    margin-top: 80px;
+    border-radius: 50%;
+}
+
+.container-content main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+
+}
+
+main h1{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.container-content main article{
+    margin: 10px;
+    background: white;
+    box-shadow: 0 1px 8px #dddddd;
+    display: flex;
+    flex-direction: column;
+}
+.container-content main article div{
+    padding: 0px 25px 0px 25px;
+}
+
+.card-head{
+    background: rgb(87, 133, 197);
+}
+
+.card-head h2{
+    font-size: 20px;
+    color:white;
+}
+
+.card-body{
+    color:rgb(114, 114, 114);
+    font-size: 17px;
+}
+
+.card-body h3{
+    font-size: 17px;
+    color: rgb(87, 133, 197);
+}
+
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columns article{
+    margin: auto;
+    width: 45%;
+}
+
+
+.hobbies{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hobbies .box-hobie{
+    max-width: 20%;
+    border-radius: 4px;
+    box-shadow: 0 1px 8px #dddddd;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies .box-hobie span{
+    padding: 5px 0 5px 0;
+    color:rgb(87, 133, 197);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hobbies .box-hobie img{
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
